@@ -1,0 +1,6 @@
+﻿services:
+  logisticsapp:
+    image: logisticsapp
+    build:
+      context: .
+      dockerfile: Dockerfile
